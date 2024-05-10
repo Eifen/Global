@@ -7,9 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
 ## Run Api
 
-El primer comando que deben ejecutar es 
+Luego del <b>composer install</b>, el primer comando que deben ejecutar es:
 
 > php artisan migrate`
 
@@ -42,13 +43,20 @@ El formato en el Body para las consultas de crear y actualizar empleados debe co
 ## Rutas Habilitadas
 
 > [GET] /api/v1/employees`: Muestra toda la informacion de los empleados registrados.
+
 > [GET] /api/v1/employees/{employeeId}: Muestra la informacion de un solo empleado.
-> [GET] /api/v1/countries: Muestra la informacion de todos los paises registrados.
-> [GET] /api/v1/departments: Muestra la informacion de todos los departamentos.
-> [GET] /api/v1/identifies: Muestra la informacion de los tipos de identificacion.
-> [GET] /api/v1/statuses: Muestra la informacion de todos los status disponibles.
-> [POST] /api/v1/employees: Crea un ejempleado. El body debe estar en formato RAW JSON.
-> [PUT] /api/v1/employees/{employeeId}: Crea un ejempleado. El body debe estar en formato RAW JSON. Sus propiedades son opcionales.
+
+> [GET] /api/v1/countries: Muestra la informacion de todos los paises registrados
+
+> [GET] /api/v1/departments: Muestra la informacion de todos los departamentos
+
+> [GET] /api/v1/identifies: Muestra la informacion de los tipos de identificacion
+
+> [GET] /api/v1/statuses: Muestra la informacion de todos los status disponibles
+
+> [POST] /api/v1/employees: Crea un ejempleado. El body debe estar en formato RAW JSON
+
+> [PUT] /api/v1/employees/{employeeId}: Crea un ejempleado. El body debe estar en formato RAW JSON. Sus propiedades son opcionales
 
 ### Nota
 
